@@ -15,4 +15,5 @@ cp -u *.html .. - Create a script that copies all the HTML files from the curren
 mv [[:upper:]]* /tmp/u - Create a script that moves all files beginning with an uppercase letter to the directory
 rm *~ - Create a script that deletes all files in the current working directory
 mkdir -p welcome/to/school - 102-tree
-ls -xamp - Write a command that lists all the files and directories of the current directory, separated by commas 
+ls -xamp - Write a command that lists all the files and directories of the current directory, separated by commas
+file -C -m school.mgc - Create a magic file school.mgc 
