@@ -7,4 +7,5 @@ ls -al -  Display current directory contents
 mkdir /tmp/my_first_directory/ - Create a script that creates a directory
 mv /tmp/betty /tmp/my_first_directory/betty - Move the file betty from /tmp/ to /tmp/my_first_directory
 rm /tmp/my_first_directory/betty - Delete the file bettyrm -rf /tmp/my_first_directory - Delete the directory
-cd - -Write a script that changes the working directory to the previous one 
+cd - -Write a script that changes the working directory to the previous one
+ls -la . .. /boot -  script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory 
