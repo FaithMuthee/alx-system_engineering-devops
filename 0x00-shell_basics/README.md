@@ -12,4 +12,5 @@ ls -la . .. /boot -  script that lists all files (even ones with names beginning
 file /tmp/iamafile - Write a script that prints the type of the file named iamafile
 ln -s /bin/ls __ls__ - Create a symbolic link to /bin/ls, named __ls__
 cp -u *.html .. - Create a script that copies all the HTML files from the current working directory to the parent of the working directory
-mv [[:upper:]]* /tmp/u - Create a script that moves all files beginning with an uppercase letter to the directory 
+mv [[:upper:]]* /tmp/u - Create a script that moves all files beginning with an uppercase letter to the directory
+rm *~ - Create a script that deletes all files in the current working directory 
